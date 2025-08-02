@@ -1,0 +1,148 @@
+
+body,h2,h3 {
+    margin: 0;
+    font-family: "poppins",sans-serif;
+}
+.a{
+    background-image: url(bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+       
+}
+header a{
+    text-decoration: none; 
+    background-color: rgb(126, 187, 126);
+    font-size: larger;
+    padding: 0.1cm;
+    
+    
+}
+#logo{
+    font-weight: bolder;
+    color: chocolate;
+}
+nav a:hover{color: rgb(255, 0, 234);}
+header{
+    
+    display: flex;
+    padding: 1em;
+    
+
+}
+#logo{
+    flex: 7;
+}
+nav {
+    flex: 2;
+    display: flex;
+    font-weight: bolder;
+    
+}
+nav a{
+    flex: 1;
+
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    padding: 3ex;
+    
+}
+.b1{color: green;
+    font-size: 3.5em;
+    font-weight: bolder;
+     
+    
+}
+.b button{
+    width: 7.5vw;
+    margin-top: 2.5em;
+    border-radius: 8px;
+    padding: 2.5px;
+    color: white;
+    background-color:rgb(226, 43, 186) ;
+    cursor: pointer;
+    
+}
+.b  :hover{
+    color: aqua;
+}
+ .b3 {
+    
+    color: green;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    
+} 
+.b2{
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 1.5em;  
+}
+
+
+
+.a1{ 
+    
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(284px ,1fr) ); 
+    background: rgb(229, 236, 236);
+    
+}
+#menu{
+    background: rgb(229, 236, 236) ;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+.a1 th{
+    font-size: 1.7em;
+    color: rgb(47, 122, 97);
+}
+table{
+    width: 100%;
+    padding: 1em;
+}.a1 tr{
+    display: flex;
+    justify-content: center;
+
+}
+.a1 td:nth-child(1){flex: 1;
+    justify-self: left;
+}
+
+
+
+.a1 td:nth-child(3){flex: 1;
+    justify-self: right;
+}
+
+#o{
+    text-align:left
+    ;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.lo{
+ background:  rgb(229, 236, 236) ;
+ 
+}
+.lo h2{
+    color: rgb(16, 245, 9);
+    margin-top: 1.5em;
+    
+}
+    
+.lo div{
+    flex: 1;
+    padding: 1em;
+
+}
+ 
+
